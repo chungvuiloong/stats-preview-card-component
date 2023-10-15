@@ -35,7 +35,7 @@
     <title>Frontend Mentor | Stats preview card component</title>
 
 </head>
-    <body class='min-h-screen bg-Very-dark-blue flex flex-col justify-center'>
+    <body class='relative min-h-screen bg-Very-dark-blue flex flex-col justify-center'>
         <div class='lg:mx-0 mx-5 lg:my-0 my-20'>        
             <div class='container mx-auto rounded-xl overflow-hidden'>        
                 <div class='flex md:flex-row flex-col bg-Dark-desaturated-blue'>
@@ -65,10 +65,19 @@
                         </div>
                     </div>
                     <div class='basis-1/2 lg:order-last order-first' >
-                        <img src='./images/image-header-desktop.jpg' alt='Hero Banner' class='max-h-[550px] h-full object-cover' style='width: -webkit-fill-available;' />
+                        <img src='./images/image-header-desktop.jpg' alt='Hero Banner' class='max-h-[560px] h-full object-cover' style='width: -webkit-fill-available;' />
                     </div>
                 </div>
             </div>
         </div>
+        <footer class='py-10 absolute lg:block hidden bottom-0 w-full bg-Dark-desaturated-blue text-White text-center'>
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" 
+                target="_blank" 
+                rel="noreferrer" 
+                className='underline underline-offset-4'>
+                    Frontend Mentor</a>. 
+                Coded with enthusiasm by <a href="https://github.com/jeresulovuo" className='underline underline-offset-4'>Jere Sulovuo (MrJay)</a>.
+        </footer>
     </body>
 </html>
