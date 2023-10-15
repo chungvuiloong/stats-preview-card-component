@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+        theme: {
+                    extend: {
+                        fontFamily: {
+                            Inter: ['Inter', 'sans-serif'],
+                            'Lexend-Deca': ['Lexend Deca', 'sans-serif']
+                        },
+                        colors: {
+                            // Primary
+                            'Very-dark-blue': 'hsl(233, 47%, 7%)',
+                            'Dark-desaturated-blue': 'hsl(244, 38%, 16%)',
+                            'Soft-violet': 'hsl(277, 64%, 61%)',
+
+                            // Neutral
+                            White: 'hsl(0, 0%, 100%)',
+                            'Slightly-transparent-white-p': 'hsla(0, 0%, 100%, 0.75)',
+                            'Slightly-transparent-white-h': 'hsla(0, 0%, 100%, 0.6)',
+                      }
+                  }
+        }
+    }
+    </script>
+    <title>Frontend Mentor | Stats preview card component</title>
+
+</head>
+    <body class='min-h-screen bg-Very-dark-blue flex flex-col justify-center'>
+        <div class='lg:mx-0 mx-5 lg:my-0 my-20'>        
+            <div class='container mx-auto rounded-xl overflow-hidden'>        
+                <div class='flex md:flex-row flex-col bg-Dark-desaturated-blue'>
+                    <div class='basis-1/2 xl:px-20 lg:px-16 px-8 xl:py-20 lg:py-16 py-12 flex flex-col justify-between'>
+                        <div class='xl:mb-16 mb-10 '>
+                            <h1 class='lg:mb-10 mb-5 font-Inter text-White 
+                            lg:text-5xl text-3xl 
+                            font-bold md:text-left text-center'>Get <span class='text-Soft-violet'>insights</span> that help your business grow.</h1>
+                            <p class='text-Slightly-transparent-white-p md:text-left text-center xl:text-xl text-base'>
+                                Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+                            experience, and overall efficiency.
+                            </p>
+                        </div>        
+                        <div class='flex md:flex-row flex-col gap-y-10 justify-between lg:pr-5 pr-0 md:text-left text-center'>
+                            <div>
+                                <h2 class='text-White xl:text-4xl text-2xl'>10k+ </h2>
+                                <p class='font-Lexend-Deca text-Slightly-transparent-white-h xl:text-xl text-sm'>COMPANIES</p>
+                            </div>
+                            <div>
+                                <h2 class='text-White xl:text-3xl text-xl'>314</h2>
+                                <p class='font-Lexend-Deca text-Slightly-transparent-white-h xl:text-xl text-sm'>TEMPLATES</p>
+                            </div>
+                            <div>
+                                <h2 class='text-White xl:text-3xl text-xl'>12M+ </h2>
+                                <p class='font-Lexend-Deca text-Slightly-transparent-white-h xl:text-xl text-sm'>QUERIES</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='basis-1/2 lg:order-last order-first' >
+                        <img src='./images/image-header-desktop.jpg' alt='Hero Banner' class='max-h-[550px] h-full object-cover' style='width: -webkit-fill-available;' />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
