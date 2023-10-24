@@ -23,11 +23,10 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot](./screenshot/screenshot.png)
 
 ### Links
 
-- Solution URL: [Github](https://github.com/jeresulovuo/stats-preview-card-component)
+- Solution URL: [Github](https://github.com/chungvuiloong/stats-preview-card-component)
 - Live Site URL: [Vercel](https://mrjays-stats-preview-card-component.vercel.app/)
 
 ## My process
